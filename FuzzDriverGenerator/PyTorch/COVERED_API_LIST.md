@@ -1,5 +1,12 @@
 # Covered PyTorch C++ API List (Total 946 APIs)
 
+We hereby correct the number of PyTorch C++ APIs presented in Section 5.1 of the paper as follows:
+
+|                 |before |after  |reason    |
+|-----------------|:-----:|:-----:|----------|
+|# of Covered APIs|837    |946    |miscounted|
+|# of Total APIs  |1,037  |unknown|It is not countable, as the document does not distinguish between APIs and internal functions|
+
 ## at (165 APIs)
 
 at::zeros\

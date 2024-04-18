@@ -1,5 +1,3 @@
-TODO: Upload Covered API List
-
 ## How to Run Fuzz Driver Generator
 
  - Pull Docker Image
