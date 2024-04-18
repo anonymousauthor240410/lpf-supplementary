@@ -1,3 +1,7 @@
+## Dataset
+
+To comply with the double-blind policy, bug report data will not be disclosed
+
 ## Run Fuzzing
 
  - Pull Docker Image
