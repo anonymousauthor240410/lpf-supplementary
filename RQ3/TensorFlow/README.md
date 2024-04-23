@@ -12,7 +12,7 @@ To comply with the double-blind policy, bug report data will not be disclosed
  - Run Docker Container
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
-	export TIME_BUDGET=60
+	export TIME_BUDGET=3600
 	export OUT_DIR=$PWD/lpf_rq1_tf
 	
 	docker run --rm -it --cpus 1 -w /root/tensorflow \

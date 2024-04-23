@@ -8,7 +8,7 @@
  - Run Docker Container
 	```bash
 	export TARGET_KERNEL_FUNC=at_native_expand
-	export TIME_BUDGET=60
+	export TIME_BUDGET=3600
 	export OUT_DIR=$PWD/lpf_rq1_torch_kernel
 	
 	docker run --rm -it --cpus 1 -w /root/pytorch \
@@ -31,8 +31,8 @@
   - Measure Coverage
 	```bash
 	export TARGET_API=at_native_expand
-	export TIME_BUDGET=60
-	export TIME_INTERVAL=10
+	export TIME_BUDGET=3600
+	export TIME_INTERVAL=300
 	export OUT_DIR=$PWD/lpf_rq1_torch_kernel
 	
 	docker run --rm -it -w /root/pytorch \

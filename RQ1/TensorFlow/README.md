@@ -8,7 +8,7 @@
  - Run Docker Container
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
-	export TIME_BUDGET=60
+	export TIME_BUDGET=3600
 	export OUT_DIR=$PWD/lpf_rq1_tf
 	
 	docker run --rm -it --cpus 1 -w /root/tensorflow \
@@ -27,8 +27,8 @@
   - Measure Coverage
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
-	export TIME_BUDGET=60
-	export TIME_INTERVAL=10
+	export TIME_BUDGET=3600
+	export TIME_INTERVAL=300
 	export OUT_DIR=$PWD/lpf_rq1_tf
 	
 	docker run --rm -it -w /root/tensorflow \
