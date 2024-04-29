@@ -24,6 +24,11 @@
 
 ## Measure Coverage
 
+ - Pull Docker Image
+	 ```bash
+	 docker pull anonymousauthor240410/pathfinder:tf-cov
+	 ```
+
   - Measure Coverage
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
@@ -41,6 +46,7 @@
 	    --corpus /root/tensorflow/experiment_result/corpus \
 	    --output_cov /root/tensorflow/experiment_result/cov.csv
   	```
+    - Coverage result will be written to `${OUT_DIR}/${TARGET_API}/cov.csv`.
 
 ## Target API List (75 APIs)
 

@@ -45,6 +45,7 @@
 	    --corpus /root/pytorch/experiment_result/corpus \
 	    --output_cov /root/pytorch/experiment_result/cov.csv
   	```
+    - Coverage result will be written to `${OUT_DIR}/${TARGET_KERNEL_FUNC}/cov.csv`.
 
 ## Target Kernel Function List (78 functions)
 

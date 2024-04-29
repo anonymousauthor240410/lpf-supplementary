@@ -45,6 +45,7 @@
 	    --corpus /root/pytorch/experiment_result/corpus \
 	    --output_cov /root/pytorch/experiment_result/cov.csv
   	```
+    - Coverage result will be written to `${OUT_DIR}/${TARGET_API}/cov.csv`.
 
 ## Target API List (57 APIs)
 

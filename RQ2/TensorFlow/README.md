@@ -24,6 +24,11 @@
 
 ## Measure Coverage (Default)
 
+ - Pull Docker Image
+	 ```bash
+	 docker pull anonymousauthor240410/pathfinder:tf-cov
+	 ```
+
   - Measure Coverage
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
@@ -41,6 +46,7 @@
 	    --corpus /root/tensorflow/experiment_result/corpus \
 	    --output_cov /root/tensorflow/experiment_result/cov.csv
   	```
+    - Coverage result will be written to `${OUT_DIR}/${TARGET_API}/cov.csv`.
 
 ## Run Fuzzing (LPF-NDP)
 
@@ -69,6 +75,11 @@
 
 ## Measure Coverage (LPF-NDP)
 
+ - Pull Docker Image
+	 ```bash
+	 docker pull anonymousauthor240410/pathfinder:tf-cov
+	 ```
+
   - Measure Coverage
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
@@ -86,6 +97,7 @@
 	    --corpus /root/tensorflow/experiment_result/corpus \
 	    --output_cov /root/tensorflow/experiment_result/cov.csv
   	```
+    - Coverage result will be written to `${OUT_DIR}/${TARGET_API}/cov.csv`.
 
 ## Run Fuzzing (LPF-STAGED)
 
@@ -113,6 +125,11 @@
 
 ## Measure Coverage (LPF-STAGED)
 
+ - Pull Docker Image
+	 ```bash
+	 docker pull anonymousauthor240410/pathfinder:tf-cov
+	 ```
+
   - Measure Coverage
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
@@ -130,6 +147,7 @@
 	    --corpus /root/tensorflow/experiment_result/corpus \
 	    --output_cov /root/tensorflow/experiment_result/cov.csv
   	```
+    - Coverage result will be written to `${OUT_DIR}/${TARGET_API}/cov.csv`.
 
 ## Target API List (115 APIs)
 

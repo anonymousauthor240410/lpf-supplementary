@@ -13,7 +13,7 @@ To comply with the double-blind policy, bug report data will not be disclosed
 	```bash
 	export TARGET_API=array_ops_BroadcastTo
 	export TIME_BUDGET=3600
-	export OUT_DIR=$PWD/lpf_rq1_tf
+	export OUT_DIR=$PWD/lpf_rq3_tf
 	
 	docker run --rm -it --cpus 1 -w /root/tensorflow \
 	  --env LD_LIBRARY_PATH=/root/.opam/4.08.0/lib/z3 \
